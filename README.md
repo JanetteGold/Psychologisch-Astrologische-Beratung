@@ -1,1 +1,174 @@
 # Psychologisch-Astrologische-Beratung
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Psychologisch-Astrologische Beratung</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1b1f3b;
+      --accent: #d4af37;
+      --light: #f9f9f9;
+      --text: #333;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: var(--light);
+      color: var(--text);
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.5em;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x500?text=Bild+von+mir') center/cover no-repeat;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px black;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      max-width: 90%;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Libre Baskerville', serif;
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    .angebot, .ablauf {
+      background: #fff;
+      border-left: 4px solid var(--accent);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .kontakt form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .kontakt input, .kontakt textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .kontakt button {
+      background: var(--primary);
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Astrologische Beratung</h1>
+  <nav>
+    <a href="#ueber">Über mich</a>
+    <a href="#angebot">Angebot</a>
+    <a href="#ablauf">Ablauf</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Psychologisch-Astrologische Beratung für Einzelpersonen & Paare</h2>
+</section>
+
+<section id="ueber">
+  <h2>Über mich</h2>
+  <p>Ich bin Janette, psychologisch-astrologische Beraterin mit Herz und Intuition. In meinen Sitzungen verbinde ich klassische Astrologie mit psychologischer Tiefenarbeit – für mehr Selbsterkenntnis, Klarheit und Verbindung.</p>
+</section>
+
+<section id="angebot">
+  <h2>Angebot</h2>
+  <div class="angebot">
+    <h3>Einzelberatung</h3>
+    <p>Online oder vor Ort. Gemeinsam beleuchten wir deine Themen aus astrologischer und psychologischer Sicht. Ideal für Selbstreflexion, Entscheidungsfragen oder persönliche Entwicklung.</p>
+  </div>
+  <div class="angebot">
+    <h3>Paarberatung</h3>
+    <p>Beziehungen sind Spiegel. In der Paarberatung betrachten wir eure astrologischen Verbindungen und schaffen Raum für neue Wege im Miteinander.</p>
+  </div>
+  <div class="angebot">
+    <h3>Vor Ort – mit tierischer Begleitung</h3>
+    <p>Die Sitzungen vor Ort finden in entspannter Atmosphäre statt – begleitet von vier einfühlsamen Katzen, die oft intuitiv Trost spenden und Stimmungen wahrnehmen.</p>
+  </div>
+</section>
+
+<section id="ablauf">
+  <h2>Ablauf einer Sitzung</h2>
+  <div class="ablauf">
+    <p>Nach einem kurzen Kennenlernen steigen wir direkt in dein Horoskop oder euer Beziehungsthema ein. Jede Sitzung ist individuell und kann online (per Zoom) oder in meinem Praxisraum stattfinden.</p>
+  </div>
+</section>
+
+<section id="kontakt" class="kontakt">
+  <h2>Kontakt</h2>
+  <form>
+    <input type="text" placeholder="Dein Name" required>
+    <input type="email" placeholder="Deine E-Mail" required>
+    <textarea rows="5" placeholder="Deine Nachricht"></textarea>
+    <button type="submit">Nachricht senden</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Psychologisch-Astrologische Beratung – Janette & Niklas | <a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+</footer>
+
+</body>
+</html>
